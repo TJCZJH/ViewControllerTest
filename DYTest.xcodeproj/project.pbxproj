@@ -16,6 +16,14 @@
 		FE1255862345CB1000A3C921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1255842345CB1000A3C921 /* LaunchScreen.storyboard */; };
 		FE1255912345CB1000A3C921 /* DYTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1255902345CB1000A3C921 /* DYTestTests.swift */; };
 		FE12559C2345CB1000A3C921 /* DYTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE12559B2345CB1000A3C921 /* DYTestUITests.swift */; };
+		FE1255AC2345CB4900A3C921 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1255A92345CB4900A3C921 /* PageContentView.swift */; };
+		FE1255AD2345CB4900A3C921 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1255AA2345CB4900A3C921 /* PageTitleView.swift */; };
+		FE1255B02345CB5400A3C921 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1255AF2345CB5400A3C921 /* Common.swift */; };
+		FE1255BA2345CC9A00A3C921 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1255B92345CC9900A3C921 /* UIColor-Extension.swift */; };
+		FE1255BC2345CFF700A3C921 /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1255BB2345CFF700A3C921 /* VC1.swift */; };
+		FE1255BE2345CFFF00A3C921 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1255BD2345CFFF00A3C921 /* VC2.swift */; };
+		FE1255C02345D00700A3C921 /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1255BF2345D00700A3C921 /* VC3.swift */; };
+		FE1255C22345D01000A3C921 /* VC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1255C12345D01000A3C921 /* VC4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,14 @@
 		FE1255972345CB1000A3C921 /* DYTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE12559B2345CB1000A3C921 /* DYTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYTestUITests.swift; sourceTree = "<group>"; };
 		FE12559D2345CB1000A3C921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1255A92345CB4900A3C921 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		FE1255AA2345CB4900A3C921 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		FE1255AF2345CB5400A3C921 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		FE1255B92345CC9900A3C921 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		FE1255BB2345CFF700A3C921 /* VC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
+		FE1255BD2345CFFF00A3C921 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		FE1255BF2345D00700A3C921 /* VC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
+		FE1255C12345D01000A3C921 /* VC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +120,15 @@
 				FE1255762345CB0E00A3C921 /* AppDelegate.swift */,
 				FE1255782345CB0E00A3C921 /* SceneDelegate.swift */,
 				FE12557A2345CB0E00A3C921 /* ViewController.swift */,
+				FE1255BB2345CFF700A3C921 /* VC1.swift */,
+				FE1255BD2345CFFF00A3C921 /* VC2.swift */,
+				FE1255BF2345D00700A3C921 /* VC3.swift */,
+				FE1255C12345D01000A3C921 /* VC4.swift */,
+				FE1255AF2345CB5400A3C921 /* Common.swift */,
+				FE1255B92345CC9900A3C921 /* UIColor-Extension.swift */,
 				FE12557C2345CB0E00A3C921 /* Main.storyboard */,
+				FE1255A92345CB4900A3C921 /* PageContentView.swift */,
+				FE1255AA2345CB4900A3C921 /* PageTitleView.swift */,
 				FE1255822345CB1000A3C921 /* Assets.xcassets */,
 				FE1255842345CB1000A3C921 /* LaunchScreen.storyboard */,
 				FE1255872345CB1000A3C921 /* Info.plist */,
@@ -262,9 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1255BC2345CFF700A3C921 /* VC1.swift in Sources */,
+				FE1255BA2345CC9A00A3C921 /* UIColor-Extension.swift in Sources */,
+				FE1255C02345D00700A3C921 /* VC3.swift in Sources */,
+				FE1255B02345CB5400A3C921 /* Common.swift in Sources */,
+				FE1255AD2345CB4900A3C921 /* PageTitleView.swift in Sources */,
 				FE1255812345CB0E00A3C921 /* DYTest.xcdatamodeld in Sources */,
 				FE12557B2345CB0E00A3C921 /* ViewController.swift in Sources */,
 				FE1255772345CB0E00A3C921 /* AppDelegate.swift in Sources */,
+				FE1255BE2345CFFF00A3C921 /* VC2.swift in Sources */,
+				FE1255C22345D01000A3C921 /* VC4.swift in Sources */,
+				FE1255AC2345CB4900A3C921 /* PageContentView.swift in Sources */,
 				FE1255792345CB0E00A3C921 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,7 +477,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DYTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,7 +495,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DYTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
